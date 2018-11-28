@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122" started-at="2018-11-23T12:03:46Z" finished-at="2018-11-23T12:03:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122" started-at="2018-11-23T12:03:46Z" finished-at="2018-11-23T12:03:46Z">
+      <class name="com.clc.login.A2Test">
+        <test-method status="PASS" signature="a2()[pri:0, instance:com.clc.login.A2Test@4f933fd1]" name="a2" duration-ms="58" started-at="2018-11-23T17:33:46Z" finished-at="2018-11-23T17:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2 -->
+        <test-method status="PASS" signature="a1()[pri:0, instance:com.clc.login.A2Test@4f933fd1]" name="a1" duration-ms="6" started-at="2018-11-23T17:33:46Z" depends-on-methods="com.clc.login.A2Test.a2" finished-at="2018-11-23T17:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+      </class> <!-- com.clc.login.A2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

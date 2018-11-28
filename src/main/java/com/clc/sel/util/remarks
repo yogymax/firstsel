@@ -1,0 +1,78 @@
+/***
+ * 				
+				
+				
+				
+				Apache Maven Configuration
+						resolves transitive dependency
+						Every developer might download and use seperate version
+						No need to share dependencies 
+						Build automation tool
+						it providers prj structure too
+						
+				Download Apache maven
+					and copy -- E:\MySofts\apache-maven-3.3.9 --- root path
+					open Control Panel -- Env Variables -- System
+						
+					JAVA_HOME=java's root folder
+					MAVEN_HOME = E:\MySofts\apache-maven-3.3.9
+					path = ---------------;%JAVA_HOME%\bin ; %MAVEN_HOME%\bin
+				open fresh command prompt
+				>mvn
+					Expected Output -- Build failure
+					
+(					may come -- mvn is not an internal or external command -- check env path
+
+
+				Goto C:\users\username
+					\.m2  -- it will be created automatically
+						/repository -- first time it will be blank
+						/settings.xml --download from below mentioned location -- https://github.com/yogymax/seleniumwithSettingsxml/tree/master/src/main/java/com/scp
+				
+				
+				
+			Open eclipse
+				File -- new -- other -- Select Maven Project -- Next(specify locatoion) -- select maven-archtype-quickstart -- next --
+				groupid - com.clc.selenium.one  --- prj belongs to which grp
+				artifactid -- clcFirstSelenium  -- actual prj name
+				version  -- 1.0.0
+				Finish
+				
+				
+			clcFirstSelenium
+				src/main/java -- business logic
+				src/test/java -- test cases
+				src/test/resources -- config for test cases
+				src/main/resources -- config for business logic
+				maven dependencies -- it will be proj dependencies
+				jre lib -- java dependencies
+				src -- proj folder structure
+				target -- build files -- jar/war/ear
+				pom.xml -- project object model
+				
+				
+				
+	Settings.xml -- will tell about from where to download the dependencies
+	pom.xml -- which jar which version
+	
+	search following dependencies
+		maven dependency for selenium
+		maven dependency for testng
+		
+		
+		
+		
+		launch browser
+		enter url
+		enter details
+	
+	
+	
+				
+						
+						
+	Webdriver list out
+	Webelements methods listout
+	Manually iteract krnare elements listout ---
+	
+	*/
