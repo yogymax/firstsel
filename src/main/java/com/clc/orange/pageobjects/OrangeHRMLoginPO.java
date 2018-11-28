@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.clc.util.BrowserUtilities;
 
-//newly addedss
+//newly add
 public class OrangeHRMLoginPO {
 
 	@FindBy(id = "txtUsername")
